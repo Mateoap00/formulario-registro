@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Card</title>
+</head>
+
+<body>
+    <div id="container">
+        <article>
+            <header>
+                <h1 id="mainTitle">Formulario de registro</h1>
+            </header>
+            <div class="form">
+                <div id="inputs">
+                    <div class="inputField">
+                        <label class="labels" for="email">Email:</label>
+                        <input id="email" type="text">
+                    </div>
+                    <div class="inputField">
+                        <label class="labels" for="name">Nombre Completo:</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="inputField">
+                        <label class="labels" for="birthDate">Fecha de nacimiento:</label>
+                        <input id="birthDate" type="date">
+                    </div>
+                    <div class="inputField">
+                        <label class="labels" for="gender">Genero:</label>
+                        <select id="gender" type="select">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="intereses">
+                    <h3>Intereses</h3>
+                    <div class="interesesOpt">
+                        <input type="checkbox">Computers
+                    </div>
+                    <div class="interesesOpt">
+                        <input type="checkbox">Sports
+                    </div>
+                    <div class="interesesOpt">
+                        <input type="checkbox">Games
+                    </div>
+                    <div class="interesesOpt">
+                        <input type="checkbox">Music
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <button id="btnRegistrar" type="submit">Registrar</button>
+            </footer>
+        </article>
+
+    </div>
+
+
+</body>
+
+</html>
