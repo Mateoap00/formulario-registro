@@ -1,0 +1,14 @@
+DROP DATABASE store;
+CREATE DATABASE store;
+USE store;
+
+CREATE TABLE users (
+  id INT PRIMARY KEY AUTO_INCREMENT, 
+  userName VARCHAR(200) NOT NULL, 
+  email VARCHAR(50) NOT NULL,
+  birthDate DATE NOT NULL,
+  gender INT(1) NOT NULL,
+  interests VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM users;

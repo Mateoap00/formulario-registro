@@ -1,5 +1,5 @@
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 h3 {
@@ -8,6 +8,14 @@ h3 {
 
 label {
     font-size: 1.75rem;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+td {
+    font-size: 1.25rem;
 }
 
 header {
@@ -36,7 +44,7 @@ article {
     font-size: 2rem;
 }
 
-button {
+#registerBtn {
     width: 10rem;
     height: 4rem;
 }
